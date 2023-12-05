@@ -1,3 +1,7 @@
+pub fn read_input() -> Vec<&'static str> {
+    include_str!("day1_input1.txt").lines().collect()
+}
+
 pub fn solution(input: Vec<&str>) -> u32 {
     let mut sum = 0;
     for line in input {

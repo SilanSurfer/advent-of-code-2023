@@ -1,6 +1,6 @@
-mod Day1;
+mod day1;
 
 fn main() {
-    let input = vec!["1abc2", "pqr3stu8vwx", "a1b2c3d4e5f", "treb7uchet"];
-    println!("Output: {}", Day1::solution(input));
+    let input = day1::read_input();
+    println!("Output: {}", day1::solution(input));
 }
